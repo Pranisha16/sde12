@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    background-color: palevioletred;
+    margin: auto;
+    height: 900px;
+    width: 1200px;
+}
+
+.header{
+    height: 200px;
+    width: 1200px;
+    background-color: blueviolet;
+}
+
+.gallery{
+    height: 400px;
+    width: 1200px;
+    background-color: blue;
+}
+
+.footer{
+    height: 300px;
+    width: 1200px;
+    background-color: crimson;
+}
