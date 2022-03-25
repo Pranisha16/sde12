@@ -1,0 +1,52 @@
+.grid-container{
+    height: 80%;
+    width: 80vh;
+    margin: 5% 10%;
+    background-color: blueviolet;
+    display: grid;
+    text-decoration: solid;
+    gap: 5px;
+    grid-template-areas: 
+    "HEADER HEADER HEADER HEADER"
+    "navigation navigation navigation navigation"
+    "main main image article"
+    "main main news news"
+    "footer footer footer footer"
+    ;
+
+}
+
+.grid-item{
+    min-height: 100px;
+    background-color:pink;
+    margin: 5px;
+    border: 2px solid black ;
+}
+
+.item1{
+    grid-area: HEADER;
+}
+
+.item2{
+    grid-area: navigation;
+}
+
+.item3{
+    grid-area: main ;
+}
+
+.item4{
+    grid-area: image;
+}
+
+.item5{
+    grid-area: article;
+}
+
+.item6{
+    grid-area: news ;
+}
+
+.item7{
+    grid-area: footer;
+}

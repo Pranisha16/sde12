@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:solid;
+    text-align: center;
+    
+}
+
+.grid-container{
+    height: 100%;
+    width: 100vh;
+    background-color: blueviolet;
+    margin: 5%;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "HEADER MENU MENU MENU"
+    "HERO HERO HERO HERO"
+    "HERO HERO HERO HERO"
+    "MAIN MAIN SPACE IMAGE"
+    "MAIN MAIN SPACE EXTRA"
+    "BANNER BANNER BANNER BANNER";
+}
+
+.grid-item{
+    min-height: 100px;
+    background-color: palevioletred;
+}
+
+.item1{
+    grid-area: HEADER;
+    background-color: pink;
+}
+
+.item2{
+    grid-area: MENU;
+    background-color: red;
+}
+
+.item3{
+    grid-area: HERO;
+    background-color: blue;
+}
+
+.item4{
+    grid-area: MAIN;
+    background-color: grey;
+}
+
+.item5{
+    grid-area: IMAGE;
+    background-color: skyblue;
+}
+
+.item6{
+    grid-area: EXTRA;
+    background-color: green;
+}
+
+.item7{
+    grid-area: BANNER;
+    background-color: yellow;
+}
+
+@media screen and (max-width:770px){
+    .grid-container{
+       grid-template-areas:
+       "HEADER HEADER HEADER HEADER" 
+       "HERO HERO HERO HERO"
+       "HERO HERO HERO HERO"
+       "HERO HERO HERO HERO"
+       "MENU MAIN MAIN MAIN"
+       "MENU MAIN MAIN MAIN"
+       "MENU BANNER BANNER BANNER"
+       "MENU EXTRA EXTRA IMAGE";
+    }
+    
+
+}
+
+@media screen and (max-width:430px) {
+
+    .grid-container{
+        grid-template-areas: 
+        "HEADER"
+        "MENU"
+        "MENU"
+        "HERO"
+        "MAIN"
+        "BANNER"
+        "EXTRA"
+        "IMAGE";
+    }
+    
+}

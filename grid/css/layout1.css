@@ -1,0 +1,16 @@
+.grid-container{
+    height: 80%;
+    width: 80vh;
+    margin: 5% 10%;
+    background-color: blueviolet;
+    display: grid;
+    text-decoration: solid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.grid-item{
+    min-height: 100px;
+    background-color:pink;
+    margin: 5px;
+}
