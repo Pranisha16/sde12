@@ -2,7 +2,6 @@
     height: 80%;
     width: 80vh;
     margin: 5% 10%;
-    background-color: blueviolet;
     display: grid;
     text-decoration: solid;
     gap: 5px;
@@ -16,11 +15,8 @@
 
 }
 
-.grid-item{
-    min-height: 100px;
-    background-color:pink;
-    margin: 5px;
-    border: 2px solid black ;
+.grid_item{
+  border: 2px solid black ;
 }
 
 .item1{

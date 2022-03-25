@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    margin: 5% 10%;
+    height: 100%;
+    width: 100vh;
+    text-align: center;
+    text-decoration: solid;
+    gap: 5px;
+    grid-template-areas: 
+    "head head head head"
+    "nm nm nm nm"
+    "con1 mc mc con2"
+    "foot foot foot foot";
+
+}
+
+.grid-item{
+
+    background-color:gainsboro;
+}
+
+.item1{
+    grid-area: head;
+}
+
+.item2{
+    grid-area: nm;
+}
+
+.item3{
+    grid-area: con1;
+    height: 200px;
+}
+
+.item6{
+    grid-area: con2;
+    height: 200px;
+}
+
+.item4{
+    grid-area: mc;
+    height: 200px;
+}
+
+.item5{
+    grid-area: foot;
+}

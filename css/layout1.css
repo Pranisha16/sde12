@@ -1,29 +1,16 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
-.main{
-    background-color: palevioletred;
-    margin: auto;
-    height: 900px;
-    width: 1200px;
-}
-
-.header{
-    height: 200px;
-    width: 1200px;
+.grid-container{
+    height: 80%;
+    width: 80vh;
+    margin: 5% 10%;
     background-color: blueviolet;
+    display: grid;
+    text-decoration: solid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
-.gallery{
-    height: 400px;
-    width: 1200px;
-    background-color: blue;
-}
-
-.footer{
-    height: 300px;
-    width: 1200px;
-    background-color: crimson;
+.grid-item{
+    min-height: 100px;
+    background-color:pink;
+    margin: 5px;
 }

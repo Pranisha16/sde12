@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    margin: 5% 10%;
+    display: grid;
+    height: 100%;
+    width: 100vh;
+    text-decoration: solid;
+    text-align: center;
+    gap: 5px;
+    grid-template-areas: 
+    "header header header header"
+    "menu main main ad1"
+    "menu main main ad1"
+    "ad2 main main ad1"
+    "footer footer footer footer";
+}
+
+.grid-item{
+    border: 5px solid red;
+}
+
+.item1{
+    grid-area: header;
+    background-color:blue;
+}
+
+.item2{
+    grid-area: menu;
+    background-color:skyblue;
+}
+
+.item3{
+    grid-area: main;
+    background-color:skyblue;
+}
+
+.item4{
+    grid-area: ad1;
+    background-color:skyblue;
+}
+
+.item5{
+    grid-area: ad2;
+    background-color:skyblue;
+}
+
+.item6{
+    grid-area: footer;
+    background-color:blue;
+}
